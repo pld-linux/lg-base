@@ -1,13 +1,13 @@
 Summary:	LinuxGazette - common files
 Summary(pl):	Wspólne pliki dla LinuxGazette
 Name:		lg-base
-Version:	97
+Version:	98
 Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	ftp://ftp.ssc.com/pub/lg/%{name}.tar.gz
-# Source0-md5:	112b5a67eb05dc3993652ca5c00d6f94
-URL:		http://www.linuxgazette.com/
+Source0:	http://linuxgazette.net/ftpfiles/%{name}.tar.gz
+# Source0-md5:	f1783e71ce4c9dabc9a0a6622cb26704
+URL:		http://www.linuxgazette.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
@@ -30,16 +30,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_defaultdocdir}/LinuxGazette
-%{_defaultdocdir}/LinuxGazette/authors
-%{_defaultdocdir}/LinuxGazette/faq
-%{_defaultdocdir}/LinuxGazette/gx
-%{_defaultdocdir}/LinuxGazette/tag
-%{_defaultdocdir}/LinuxGazette/altindex.html
-%{_defaultdocdir}/LinuxGazette/archives.html
-%{_defaultdocdir}/LinuxGazette/404.html
-%{_defaultdocdir}/LinuxGazette/copying.html
-%{_defaultdocdir}/LinuxGazette/index.html
-%{_defaultdocdir}/LinuxGazette/lg_index.html
-%{_defaultdocdir}/LinuxGazette/mirrors.html
-%{_defaultdocdir}/LinuxGazette/search.html
+%{_defaultdocdir}/LinuxGazette
