@@ -1,12 +1,12 @@
-Summary:	LinuxGazette - common files.
-Summary(pl):	Wspólne pliki dla LinuxGazette.
+Summary:	LinuxGazette - common files
+Summary(pl):	Wspólne pliki dla LinuxGazette
 Name:		lg-base
 Version:	88
 Release:	1
-URL:		http://www.linuxgazette.org/
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.ssc.com/pub/lg/%{name}.tar.gz
+URL:		http://www.linuxgazette.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
@@ -19,20 +19,17 @@ Ten pakiet zawiera pliki wspólne dla wszystkich wydañ LinuxGazette.
 %prep
 %setup -q -n lg
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 
 %clean
-test "$RPM_BUILD_ROOT" != "/" && rm -rf ${RPM_BUILD_ROOT}
-
-%post
+rm -rf $RPM_BUILD_ROOT
 
 %files 
 %defattr(644,root,root,755)
+%dir %{_defaultdocdir}/LinuxGazette
 %{_defaultdocdir}/LinuxGazette/authors
 %{_defaultdocdir}/LinuxGazette/faq
 %{_defaultdocdir}/LinuxGazette/gx
