@@ -6,7 +6,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.ssc.com/pub/lg/%{name}.tar.gz
-URL:		http://www.linuxgazette.org/
+URL:		http://www.linuxgazette.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
