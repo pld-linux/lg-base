@@ -1,12 +1,12 @@
 Summary:	LinuxGazette - common files
 Summary(pl):	Wspólne pliki dla LinuxGazette
 Name:		lg-base
-Version:	96
+Version:	97
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://ftp.ssc.com/pub/lg/%{name}.tar.gz
-# Source0-md5:	bd5a1f847a1d85c1a3a88843a4df62df
+# Source0-md5:	112b5a67eb05dc3993652ca5c00d6f94
 URL:		http://www.linuxgazette.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
