@@ -1,7 +1,7 @@
 Summary:	LinuxGazette - common files
 Summary(pl):	Wspólne pliki dla LinuxGazette
 Name:		lg-base
-Version:	88
+Version:	89
 Release:	1
 License:	distributable
 Group:		Documentation
