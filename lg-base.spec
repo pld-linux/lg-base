@@ -28,7 +28,7 @@ cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %dir %{_defaultdocdir}/LinuxGazette
 %{_defaultdocdir}/LinuxGazette/authors
