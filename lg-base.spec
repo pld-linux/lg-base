@@ -5,6 +5,7 @@ Version:	90
 Release:	1
 License:	distributable
 Group:		Documentation
+# Source0-md5:	d1839259e7aade1e9d588931dbc9f964
 Source0:	ftp://ftp.ssc.com/pub/lg/%{name}.tar.gz
 URL:		http://www.linuxgazette.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
