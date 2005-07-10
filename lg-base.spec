@@ -12,7 +12,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
 %description
-This package cont6ins common files of LinuxGazette.
+This package contains common files of LinuxGazette.
 
 %description -l pl
 Ten pakiet zawiera pliki wspólne dla wszystkich wydañ LinuxGazette.
