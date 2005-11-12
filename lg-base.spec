@@ -6,7 +6,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	http://linuxgazette.net/ftpfiles/%{name}.tar.gz
-# Source0-md5:	24850ce06fb77d4fe05cb20fbbfbca1b
+# Source0-md5:	d2e0c8d097368e9c8d087520202a195a
 URL:		http://www.linuxgazette.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
