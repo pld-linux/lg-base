@@ -8,8 +8,8 @@ Group:		Documentation
 Source0:	http://linuxgazette.net/ftpfiles/%{name}.tar.gz
 # Source0-md5:	7ce172f57de684aaa4027d173c7bbb90
 URL:		http://www.linuxgazette.net/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains common files of LinuxGazette.
@@ -23,13 +23,13 @@ Ten pakiet zawiera pliki wspólne dla wszystkich wydañ LinuxGazette.
 %build
 %{__sed} -i -e 's,href="10,href="issue10,g' \
 	-e 's,href="11,href="issue11,g' \
-	-e 's,href="12,href="issue12,g' *.html 
+	-e 's,href="12,href="issue12,g' *.html
 ln -sf issue%{version} current
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
-cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
+cp -a * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
 
 %clean
 rm -rf $RPM_BUILD_ROOT
