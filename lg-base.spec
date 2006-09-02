@@ -28,12 +28,12 @@ ln -sf issue%{version} current
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
-cp -a * $RPM_BUILD_ROOT%{_defaultdocdir}/LinuxGazette
+install -d $RPM_BUILD_ROOT%{_docdir}/LinuxGazette
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LinuxGazette
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_defaultdocdir}/LinuxGazette
+%{_docdir}/LinuxGazette
