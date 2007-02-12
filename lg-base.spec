@@ -1,5 +1,5 @@
 Summary:	LinuxGazette - common files
-Summary(pl):	Wspólne pliki dla LinuxGazette
+Summary(pl.UTF-8):   WspÃ³lne pliki dla LinuxGazette
 Name:		lg-base
 Version:	134
 Release:	1
@@ -14,8 +14,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains common files of LinuxGazette.
 
-%description -l pl
-Ten pakiet zawiera pliki wspólne dla wszystkich wydañ LinuxGazette.
+%description -l pl.UTF-8
+Ten pakiet zawiera pliki wspÃ³lne dla wszystkich wydaÅ„ LinuxGazette.
 
 %prep
 %setup -q -n lg
