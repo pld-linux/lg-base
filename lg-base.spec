@@ -1,5 +1,5 @@
 Summary:	LinuxGazette - common files
-Summary(pl.UTF-8):   Wspólne pliki dla LinuxGazette
+Summary(pl.UTF-8):	Wspólne pliki dla LinuxGazette
 Name:		lg-base
 Version:	134
 Release:	1
