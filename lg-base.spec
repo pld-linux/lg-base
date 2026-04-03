@@ -2,7 +2,7 @@ Summary:	LinuxGazette - common files
 Summary(pl.UTF-8):	Wspólne pliki dla LinuxGazette
 Name:		lg-base
 Version:	157
-Release:	1
+Release:	2
 License:	distributable
 Group:		Documentation
 Source0:	http://linuxgazette.net/ftpfiles/%{name}.tar.gz
